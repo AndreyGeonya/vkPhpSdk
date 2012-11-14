@@ -85,8 +85,12 @@ class Oauth2Proxy implements IOauth2Proxy
 			}
 			elseif($_REQUEST['state'] === $_SESSION['vkPhpSdk']['state'])
 			{
-				$this->_authJson = file_get_contents("$this->_accessTokenUrl?client_id=$this->_clientId&client_secret=$this->_clientSecret&code={$_REQUEST['code']}");
-
+				$this->_authJson = file_get_contents($this->_accessTokenUrl
+				    .'?client_id='.$this->_clientId
+				    .'&client_secret='.$this->_clientSecret
+				    .'&code='.$_REQUEST['code']
+				    .'&redirect_uri='.$this->_redirectUri
+				);
 				if($this->_authJson !== false)
 				{
 					$_SESSION['vkPhpSdk']['authJson'. $this->_clientId] = $this->_authJson;
