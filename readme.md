@@ -8,16 +8,16 @@ Usage
 -----
 
 Look example:
-https://github.com/AndreyGeonya/VkPhpSdk/blob/master/example/index.php
+https://github.com/kexek/vkPhpSdk/blob/master/example/index.php
 
 Feedback
 --------
 
 Use GitHub issues tracker to report bugs and issues:
-https://github.com/AndreyGeonya/vkPhpSdk/issues
+https://github.com/kexek/vkPhpSdk/issues
 
 License
 -------
 
 The VK PHP SDK is released under the New BSD License:
-https://github.com/AndreyGeonya/VkPhpSdk/blob/master/license.txt
+https://github.com/kexek/VkPhpSdk/blob/master/license.txt
