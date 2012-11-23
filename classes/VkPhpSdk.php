@@ -31,7 +31,7 @@ class VkPhpSdk
 	/**
 	 * Version.
 	 */
-	const VERSION = '0.2.1';
+	const VERSION = '0.2.4';
 	
 	/**
 	 * Default options for curl.
@@ -40,7 +40,7 @@ class VkPhpSdk
 		CURLOPT_CONNECTTIMEOUT => 10,
 		CURLOPT_RETURNTRANSFER => true,
 		CURLOPT_TIMEOUT => 60,
-		CURLOPT_USERAGENT => 'vkPhpSdk-0.2.1',
+		CURLOPT_USERAGENT => 'vkPhpSdk-0.2.4',
 		CURLOPT_SSL_VERIFYPEER => false,
 	);
 
@@ -48,8 +48,8 @@ class VkPhpSdk
 	 * Maps aliases to Vkontakte domains.
 	 */
 	public static $domainMap = array(
-		'api' => 'https://api.vkontakte.ru/method/',
-		'www' => 'http://www.vkontakte.ru/',
+		'api' => 'https://api.vk.com/method/',
+		'www' => 'http://www.vk.com/',
 	);
 		
 	private $_accessToken;

@@ -4,13 +4,13 @@ require_once dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'classes' . DIRE
 
 // Init OAuth 2.0 proxy
 $oauth2Proxy = new Oauth2Proxy(
-	'2623482', // client id
-	'GWzxbHPrU7EccfBKsLkd',	// client secret
-	'https://api.vkontakte.ru/oauth/access_token', // access token url
-	'http://api.vkontakte.ru/oauth/authorize', // dialog uri
-	'code',	// response type
-	'http://localhost/vkPhpSdk/example', // redirect url
-	'offline,notify,friends,photos,audio,video,wall' // scope
+    '2623482', // client id
+    'GWzxbHPrU7EccfBKsLkd', // client secret
+    'https://oauth.vk.com/access_token', // access token url
+    'https://oauth.vk.com/authorize', // dialog uri
+    'code', // response type
+    'http://localhost/vkPhpSdk/example', // redirect url
+    'offline,notify,friends,photos,audio,video,wall' // scope
 );
 
 // Try to authorize client
