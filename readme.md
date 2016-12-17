@@ -1,8 +1,9 @@
 VK (VKontakte) PHP SDK based on OAuth 2.0 protocol
 =================
 
-The VK Platform http://vk.com/developers.php is a set of APIs that make your
-application more social.
+The VK Platform: http://vk.com/developers.php
+
+<b>This component is no longer supported by autor.</b>
 
 Version
 -----
@@ -11,17 +12,14 @@ Current version: 0.2.3
 Usage
 -----
 
-Look example:
-https://github.com/AndreyGeonya/VkPhpSdk/blob/master/example/index.php
+See an example: https://github.com/AndriiHeonia/VkPhpSdk/blob/master/example/index.php
 
 Feedback
 --------
 
-Use GitHub issues tracker to report bugs and issues:
-https://github.com/AndreyGeonya/vkPhpSdk/issues
+Use GitHub issues tracker to report bugs and issues: https://github.com/AndriiHeonia/vkPhpSdk/issues
 
 License
 -------
 
-The VK PHP SDK is released under the New BSD License:
-https://github.com/AndreyGeonya/VkPhpSdk/blob/master/license.txt
+The VK PHP SDK is released under the New BSD License: https://github.com/AndriiHeonia/vkPhpSdk/blob/master/license.txt
