@@ -14,11 +14,6 @@ Usage
 
 See an example: https://github.com/AndriiHeonia/VkPhpSdk/blob/master/example/index.php
 
-Feedback
---------
-
-Use GitHub issues tracker to report bugs and issues: https://github.com/AndriiHeonia/vkPhpSdk/issues
-
 License
 -------
 
