@@ -3,7 +3,7 @@ VK (VKontakte) PHP SDK based on OAuth 2.0 protocol
 
 The VK Platform: http://vk.com/developers.php
 
-<b>This component is no longer supported by autor.</b>
+<b>This project is no longer supported by autor.</b>
 
 Version
 -----
